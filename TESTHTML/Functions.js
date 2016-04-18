@@ -13,16 +13,31 @@ function changeSize()
         document.getElementById("title").style.lineHeight = "28vh";
     }
 
-    if ((window.innerWidth * .17) < 180)
+    if (location.pathname.split("/").slice(-1) != "ProfilePage.html")
     {
-        document.getElementById("afterNavBar").style.marginLeft = "180px";
-    }
-    else if (((window.innerWidth * .14) + 30) < 330)
-    {
-        document.getElementById("afterNavBar").style.marginLeft = (window.innerWidth * .14) + 30 + "px";
+     if ((window.innerWidth * .17) < 180)
+        {
+            document.getElementById("afterNavBar").style.marginLeft = "180px";
+        }
+        else if (((window.innerWidth * .14) + 30) < 330)
+        {
+            document.getElementById("afterNavBar").style.marginLeft = (window.innerWidth * .14) + 30 + "px";
+        }
+        else
+        {
+            document.getElementById("afterNavBar").style.marginLeft = "330px";
+        }
     }
     else
     {
-        document.getElementById("afterNavBar").style.marginLeft = "330px";
+        if ((window.innerWidth * .15) < 165) {
+            document.getElementById("afterNavBar").style.marginLeft = "165px";
+        }
+        else if (((window.innerWidth * .14) + 15) < 315) {
+            document.getElementById("afterNavBar").style.marginLeft = (window.innerWidth * .14) + 15 + "px";
+        }
+        else {
+            document.getElementById("afterNavBar").style.marginLeft = "315px";
+        }
     }
 };
