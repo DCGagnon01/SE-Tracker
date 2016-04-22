@@ -1,4 +1,5 @@
 $(document).ready(function() {
-    $('.fade').hide();
-    $('.fade').fadeIn(3000);
+    $('.fadetransition').hide();
+    $('.fadetransition').fadeIn(3000);
+
 });
