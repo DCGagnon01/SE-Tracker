@@ -26,7 +26,7 @@ img
 /*End Title Style*/
 
 /*Begin NavBar Style*/
-ul
+.headerlist
 {
     list-style-type: none;
     margin: auto;
@@ -67,3 +67,24 @@ li a.active
     color: white;
 }
 /*End NavBar Style*/
+
+/*Profile Page Styles*/
+
+.profilepic {
+  height:300px;
+  width:30%;
+  border:solid  orange 5px;
+  border-radius:30px;
+  padding:0px;
+
+}
+.contactlist {
+  font-size:20px;
+  /*text-align:center;*/
+  padding-left:20px;
+  padding-top:70px;
+  list-style-type: none;
+}
+.contactlist > li {
+
+}

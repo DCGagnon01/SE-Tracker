@@ -18,20 +18,44 @@
             <img src="Image Asset 2.png" class="fadetransition" style="float: left;" />
             Profile Page
         </div>
-        <ul>
+        <ul class="headerlist">
             <li><a href="HomePage.html">Home</a></li>
             <li><a href="TrackerPage.html">Tracker</a></li>
             <li><a class="active" href="ProfilePage.html">Profile</a></li>
         </ul>
         <div id="afterNavBar">
-            <h1>
-                afterNavBar Header
+          <div class="row">
+            <h1 class="col-md-12" style="background-color:black;text-align:center;color:orange">
+                UserNameID
             </h1>
-            <p>
-                this is a paragraph after the navbar.
-            </p>
+          </div>
+          <div class="row">
+            <img class = "col-md-6 img-rounded img-responsive profilepic" src="Images/randomguy.png">
+            <ul class="col-md-6 contactlist">
+              <li>Email:UserEmail</li>
+              <li>Phone #:UserPhoneNumber</li>
+              <li>Feel Free to add other contacts: ...</li>
+            </ul>
+        </div>
+        <div class="row">
+          <h1 class="col-md-6" style="background-color:black;color:orange;text-align:center;font-size:40px;border-radius:20px">Experince</h1>
+        </div>
+        <!-- FOR EVERY EXPERINCE USER ADD, TEMPLATE GOES AS FOLLOWS -->
+        <div class="row">
+          <h1>ExperinceTitle</h1>
+              <div class=col-md-10 style="background-color:black;color:orange;text-align:center;font-size:20px;border-radius:10px">
+                  <p>  Several vibrations reached my ears, a simple ring from the doorbell occurred. A bright screen reflects on my eyeglasses as my older cousin comes in to greet me. It was just another day of me browsing the internet solely for entertainment, or so I thought. My cousin, realizing that I was searching for something new and exciting, introduced me to a new spectrum, computer science. I always knew that I was going to work in the field of technology and I finally felt like I was taking an initiative towards my dream. </p>
+              </div>
+        </div>
+        <div class="row">
+          <h1>Skills, Languages & Frameworks</h1>
+              <div class=col-md-2 style="background-color:black;color:orange;text-align:center;font-size:20px;border-radius:10px">
+                <!-- FOR EVERY SKILL ADD ANOTHER P (LOOP) -->
+                  <p>Java</p>
+              </div>
         </div>
     </div>
+  </div>
     <script src="InitialSetup.js" type="text/javascript"></script>
     <script src="Functions.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-git.js"></script>
