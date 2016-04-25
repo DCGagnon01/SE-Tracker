@@ -68,6 +68,18 @@ li a.active
 }
 /*End NavBar Style*/
 
+/*Home Page Styles*/
+
+.homebutton {
+  height:50px;
+  width:60%;
+  margin-top:70px;
+  font-size:20px;
+  background-color: black;
+  color:orange;
+  border-radius:20px;
+}
+
 /*Profile Page Styles*/
 
 .profilepic {
