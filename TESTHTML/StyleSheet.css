@@ -74,7 +74,7 @@ li a.active
   height:300px;
   width:30%;
   border:solid  orange 5px;
-  border-radius:30px;
+  border-radius:90px;
   padding:0px;
 
 }
@@ -86,5 +86,12 @@ li a.active
   list-style-type: none;
 }
 .contactlist > li {
+
+}
+.no-dec-list {
+  list-style-type:None;
+  padding:0px;
+  height:50px;
+  font-size:30px;
 
 }
