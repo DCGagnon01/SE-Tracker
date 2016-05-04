@@ -65,8 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Functions.js" />
     <Content Include="HomePage.html" />
-    <Content Include="JavaScript.js" />
+    <Content Include="InitialSetup.js" />
     <Content Include="ProfilePage.html" />
     <Content Include="StyleSheet.css" />
     <Content Include="TrackerPage.html" />

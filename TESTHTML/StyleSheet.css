@@ -12,7 +12,6 @@
 
     max-height: 300px;
     height: 28vh;
-    min-height: 150px;
     max-width: inherit;
 
     padding: 0;
@@ -27,7 +26,7 @@ img
 /*End Title Style*/
 
 /*Begin NavBar Style*/
-ul
+.headerlist
 {
     list-style-type: none;
     margin: auto;
@@ -39,7 +38,7 @@ ul
     text-align: center;
     position: absolute;
     overflow: hidden;
-    background-color: lightgray; 
+    background-color: lightgray;
 
     font-size: 20px;
     border-bottom: 2px solid black;
@@ -68,3 +67,43 @@ li a.active
     color: white;
 }
 /*End NavBar Style*/
+
+/*Home Page Styles*/
+
+.homebutton {
+  height:50px;
+  width:60%;
+  margin-top:10px;
+  font-size:20px;
+  background-color: black;
+  color:orange;
+  border-radius:20px;
+}
+
+/*Profile Page Styles*/
+
+.profilepic {
+  height:300px;
+  width:30%;
+  border:solid  orange 5px;
+  border-radius:90px;
+  padding:0px;
+
+}
+.contactlist {
+  font-size:20px;
+  /*text-align:center;*/
+  padding-left:20px;
+  padding-top:70px;
+  list-style-type: none;
+}
+.contactlist > li {
+
+}
+.no-dec-list {
+  list-style-type:None;
+  padding:0px;
+  height:50px;
+  font-size:30px;
+
+}

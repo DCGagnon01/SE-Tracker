@@ -6,16 +6,23 @@
     </title>
     <link rel="stylesheet" href="StyleSheet.css">
 </head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <body>
     <div id="masterSize">
         <div id="title">
-            <img src="Image Asset 3.png" style="float: left;" />
+            <a href="HomePage.html"><img src="Image Asset 3.png" class="fadetransition" style="float: left;" /></a>
             Tracking Page
         </div>
-        <ul>
+        <ul class="headerlist">
             <li><a href="HomePage.html">Home</a></li>
             <li><a class="active" href="TrackerPage.html">Tracker</a></li>
             <li><a href="ProfilePage.html">Profile</a></li>
+            <li><a href="studentsearch.html">Student Search</a></li>
         </ul>
         <div id="afterNavBar">
             <h1>
@@ -26,8 +33,9 @@
             </p>
         </div>
     </div>
-    <script src="JavaScript.js" type="text/javascript">
-    </script>
-
+    <script src="InitialSetup.js" type="text/javascript"></script>
+    <script src="Functions.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-git.js"></script>
+    <script src="animations.js"></script>
 </body>
 </html>

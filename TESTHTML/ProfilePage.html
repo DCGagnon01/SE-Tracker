@@ -4,30 +4,90 @@
     <title>
         SE Tracker: Profile
     </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="StyleSheet.css">
-</head>
 <body>
+
     <div id="masterSize">
         <div id="title">
-            <img src="Image Asset 2.png" style="float: left;" />
+            <a href="HomePage.html"><img src="Image Asset 2.png" class="fadetransition" style="float: left;" /></a>
             Profile Page
         </div>
-        <ul>
+        <ul class="headerlist">
             <li><a href="HomePage.html">Home</a></li>
             <li><a href="TrackerPage.html">Tracker</a></li>
             <li><a class="active" href="ProfilePage.html">Profile</a></li>
+            <li><a href="studentsearch.html">Student Search</a></li>
         </ul>
         <div id="afterNavBar">
-            <h1>
-                afterNavBar Header
+          <div class="row">
+            <h1 class="col-md-12" style="background-color:black;text-align:center;color:orange">
+                UserNameID
             </h1>
-            <p>
-                this is a paragraph after the navbar.
-            </p>
-        </div>
-    </div>
-    <script src="JavaScript.js" type="text/javascript">
-    </script>
+          </div>
+          <div class="row" style="padding-top:20px;">
+            <img class = "col-md-6 img-rounded img-responsive profilepic" src="Images/randomguy.png">
+            <ul class="col-md-6 contactlist">
+              <li>Email:UserEmail</li>
+              <li>Phone #:UserPhoneNumber</li>
+              <li>Github.com/UserID</li>
+              <li>Hometown:City, State</li>
+              <li>Feel Free to add other contacts: ...</li>
+            </ul>
+            </div>
+            <div class="row" style="padding-top:20px;">
+                  <h1 class="col-md-6" style="background-color:black;color:orange;text-align:center;font-size:40px;border-radius:20px;margin-bottom:30px">Summary</h1>
+            </div>
+            <div class="row" style="background-color:black;color:orange;text-align:center;font-size:20px;border-radius:10px;">
+                  <p class="col-md-10">The footnote overprices the passport. Will an emotional newsletter despise the much misuse? A plastic stumbles throughout a bass. The dance slaves? The traveling vat rots opposite the exempt explosive. How does the parochial tale chalk?</p>
+            </div>
 
+        <div class="row">
+          <h1 class="col-md-6" style="background-color:black;color:orange;text-align:center;font-size:40px;border-radius:20px;margin-top:75px">Experince</h1>
+        </div>
+        <!-- FOR EVERY EXPERINCE USER ADD, TEMPLATE GOES AS FOLLOWS -->
+        <div class="row" style="padding-top:20px;">
+          <h1>ExperinceTitle-Company/Organization</h1>
+          <h2>Job Title</h2>
+          <h3>Date-1/1/11 to 2/2/22</h3>
+              <div class="col-md-9" style="background-color:black;color:orange;text-align:center;font-size:20px;border-radius:10px">
+                  <p> Several vibrations reached my ears, a simple ring from the doorbell occurred. A bright screen reflects on my eyeglasses as my older cousin comes in to greet me. It was just another day of me browsing the internet solely for entertainment, or so I thought. My cousin, realizing that I was searching for something new and exciting, introduced me to a new spectrum, computer science. I always knew that I was going to work in the field of technology and I finally felt like I was taking an initiative towards my dream. </p>
+              </div>
+
+        </div>
+
+        <div class="row" style="padding-top:20px;">
+        <div class="col-md-12 honors-award">
+        <h2>Honors and Awards</h2>
+        <ul class="list-group">
+          <!-- for every honors/awards/achievement, alternate first style is for odd numbers, second style is for even -->
+        <li class="no-dec-list list-group-item-info" style="background-color:orange;color:black">Software Engineer of the Year</li>
+        <h3 style="margin-left:60px">Description, blah blah blah, won this award by programming a better search engine than Google Description, blah blah blah, won this award by programming a better search engine than Google </h3>
+        <h4 style="margin-left:80px">Awarded on 2/2/22-3/3/33</h4>
+        <li class="no-dec-list list-group-item-info" style="background-color:black;color:orange">Fastest Programmer</li>
+          <h3 style="margin-left:60px">Description, blah blah blah, won this award by programming a better search engine than Google Description, blah blah blah, won this award by programming a better search engine than Google </h3>
+          <h4 style="margin-left:80px">Awarded on 2/2/22-3/3/33</h4>
+      </ul>
+      </div>
+    </div>
+    <div class="row" style="padding-top:20px;">
+      <h2>Skills, Languages & Frameworks</h2>
+          <div class=col-md-2 style="color:black;text-align:center;font-size:20px;border-radius:10px">
+            <!-- FOR EVERY SKILL ADD ANOTHER P (LOOP) -->
+              <p>-Java</p>
+              <p>-PHP</p>
+          </div>
+    </div>
+    </div>
+  </div>
+    <script src="InitialSetup.js" type="text/javascript"></script>
+    <script src="Functions.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-git.js"></script>
+    <script src="animations.js"></script>
 </body>
 </html>
